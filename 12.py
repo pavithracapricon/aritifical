@@ -6,6 +6,6 @@ while(n>0):
   r=r*10+d
   n=n//10
 if(temp==r):
-  print("yes")
+   print("yes")
 else:
-  print("no")
+   print("no")
