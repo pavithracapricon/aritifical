@@ -5,5 +5,3 @@ if n<=1000:
    print("yes")
   else:
    print("no")
-else:
- print("no")
