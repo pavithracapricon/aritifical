@@ -8,6 +8,5 @@ for num in range(lower, upper + 1):
        digit = temp % 10
        sum += digit ** order
        temp //= 10
-
    if num == sum:
        print(num)
