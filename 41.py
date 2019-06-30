@@ -1,19 +1,15 @@
-def K_String(s, k):
-n = len(s)
-fre = [0] * 26
-for i in range(n):
-fre[ord(s[i]) – ord(‘a’)] += 1
-str = “”
-for i in range( 26) :
-if (fre[i] % k == 0) :
-x = fre[i] // k
-while (x) :
-str += chr(i + ord(‘a’))
-x -= 1
-else :
-return “-1”
-return str
-if __name__ == “__main__”:
-s = “aabb”
+def countOccurrences (s, K): 
+   n = len(s) 
+   c1 = 0
+   c2 = 0
+   C = 0
+   for i in range(n): 
+     if s[i] == 'a': 
+       c1+= 1  
+     if s[i] == 'b': 
+       c2+= 1 
+       C += c1  
+     return C * K + (K * (K - 1) / 2) * c1 * c2      
+s = "abcb"
 k = 2
-print( K_String(s, k))
+print (countOccurrences(S, k)) 
