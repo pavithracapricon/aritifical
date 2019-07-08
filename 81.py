@@ -1,2 +1,2 @@
-vvi,devn=map(int,input().split())
-print(abs(vvi-devn))
+pavi,yasu=map(int,input().split())
+print(abs(pavi-yasu))
