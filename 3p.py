@@ -1,3 +1,3 @@
     
-z=int(input()[::-1])
-print(z)
+z1=int(input()[::-1])
+print(z1)
