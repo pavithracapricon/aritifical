@@ -1,12 +1,10 @@
-lower = int(input("Enter lower range: "))
-upper = int(input("Enter upper range: "))
-for num in range(lower, upper + 1):
- order = len(str(num))
-   sum = 0
-   temp = num
-   while temp > 0:
-       digit = temp % 10
-       sum += digit ** order
-       temp //= 10
-  if num == sum:
-     print(num)
+a,b=map(int,input().split())
+for w in range(a+1,b):
+	s=0
+	i=w
+	while(i>0):
+		c=i%10
+		s+=c**3
+		i//=10
+	if(w==i):
+		print(w,end=" ")
