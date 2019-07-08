@@ -1,6 +1,3 @@
-def multiple(m, n):   
-    a = range(n, (m * n)+1, n) 
-    print(*a)  
-m = int(input("number is"))
-n = int(input("number is"))
-multiple(m, n)
+    
+f=int(input())
+print(f*1,f*2,f*3,f*4,f*5)
