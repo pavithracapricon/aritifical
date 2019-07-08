@@ -1,5 +1,8 @@
-ch = input("Please Enter Your Own Character : ")
-
-if(ch == 'a' or ch == 'e' or ch == 'i' or ch == 'o' or ch == 'u' or ch == 'A'
-       or ch == 'E' or ch == 'I' or ch == 'O' or ch == 'U'):
-   print("The Given Character ", ch, "is a Vowel")
+    
+inputs=input()
+z=['a','e','i','o','u']
+a=any(c in inputs for c in z)
+if(a==True):
+  print('yes')
+else:
+  print('no')
