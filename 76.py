@@ -1,16 +1,9 @@
-def isComposite(n): 
-    if (n <= 1): 
-        return False
-    if (n <= 3): 
-        return False
-    if (n % 2 == 0 ): 
-        return True
-    i = 5
-    while(i * i <= n): 
-          
-        if (n % i == 0 ): 
-            return True
-        i = i + 6
-          
-    return False 
+a=int(input())
+if(a>1):
+ for i in range(2,a):
+  if(a%i==0):
+   print("yes")
+   break
+ else:
+   print("no")
  
