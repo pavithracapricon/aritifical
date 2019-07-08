@@ -1,3 +1,3 @@
     
-f=int(input())
-print(f*1,f*2,f*3,f*4,f*5)
+a=int(input())
+print(a*1,a*2,a*3,a*4,a*5)
