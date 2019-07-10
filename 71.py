@@ -1,5 +1,5 @@
-sb=input()
-if(sb==sb[::-1]):
+sar1=input()
+if(sar1==sar1[::-1]):
  print("yes")
 else:
  print("no")
