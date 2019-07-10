@@ -1,2 +1,2 @@
-in=input()
-print(in[::-1])
+ginx1=input()
+print(ginx1[::-1])
