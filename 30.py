@@ -1,5 +1,3 @@
-y,z=map(int,input().split())
-z,d=map(int,input().split())
-hrs=abs(y-a)
-min=abs(z-b)
-print(hrs,min)
+a1,b1=map(int,input("").split())
+c1,d1=map(int,input("").split())
+print(a1-c1,b1-d1)
