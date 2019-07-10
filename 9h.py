@@ -1,6 +1,6 @@
 t1=int(input())
 s1=list(map(int,input().split()))
-m1=max(s)
+m1=max(s1)
 a,b=0,0
 for i in range(0,len(s1)-1):
   for j in range(i+1,len(s1)):
