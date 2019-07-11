@@ -1,9 +1,3 @@
-def  sumOfAP(a,  d,  n): 
-  sum = (n / 2) * (2 * a + (n - 1) * d) 
-  return sum
-         
-n = 3
-a = 2
-d = 10
-  
-print(sumOfAP(a, d, n))
+sa1,f1,n=map(int,intput().split())
+if (sa1>1 and sa1<=100000):
+  print(int((sa1/2)*(2*K+(sa1-1)*n)))
